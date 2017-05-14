@@ -1,11 +1,10 @@
-package bootwildfly;
+package com.prometheus.restful;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWildFlyController {
-
+public class Hello {
 
     @RequestMapping("hello")
     public String sayHello(){
